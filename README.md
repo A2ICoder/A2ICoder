@@ -8,6 +8,8 @@ Bienvenue sur l'espace regroupant les applications et utilitaires d'administrati
 
 ## 📦 Catalogue des projets
 
+**10 projets** regroupés par domaine d’exploitation.
+
 ### 📲 Portail d'Alarmes & Télégestion
 
 | Projet | Version | Socle technique | Rôle principal |
@@ -33,7 +35,9 @@ Bienvenue sur l'espace regroupant les applications et utilitaires d'administrati
 
 | Projet | Version | Socle technique | Rôle principal |
 | :--- | :---: | :--- | :--- |
+| [**A2I Vault**](https://github.com/A2ICoder/A2IVault) | `v0.4.33` | `.NET 10` · `ASP.NET Core` · `SQLite` · `agents Windows` | Plateforme centrale de sauvegarde et de supervision du patrimoine industriel, avec console web, agents Windows, contrôles SHA-256 et rétention. |
 | [**ARA-Vault**](https://github.com/A2ICoder/ARA-Vault) | `v1.0.0` | `PowerShell 5.1 / 7` · `RoboCopy` · `7-Zip` | Sauvegarde automatisée, contrôle d'intégrité `SHA-256`, purge encadrée et rapport hebdomadaire du patrimoine industriel (API, supervisions, partages OT). |
+| [**PLC Backup Station**](https://github.com/A2ICoder/PLC-Backup-Station) | `v0.1.0` · expérimental | `C#` · `.NET Framework 4.8` · `Modbus/TCP / UMAS` | CLI autonome de sauvegarde APPLICATION/DATA d’automates Schneider avec mot de passe applicatif connu. Validé sur simulateur ; qualification matérielle restante. |
 | [**NPort-RebootGuard**](https://github.com/A2ICoder/NPort-RebootGuard) | `v1.0.0` | `PowerShell 5.1` · `HTTP / CDP` | Enchaînement séquentiel `Save/Restart` des serveurs série Moxa NPort et validation automatique du retour en service. |
 
 ---
@@ -41,5 +45,5 @@ Bienvenue sur l'espace regroupant les applications et utilitaires d'administrati
 ## 🧭 Conventions communes à tous les dépôts
 
 - **Zéro donnée sensible dans Git** : adresses IP, URL internes, partages NAS et destinataires résident exclusivement dans des fichiers de configuration locaux non versionnés (`*.local.psd1`, `*.Site.psd1`, `config.json`), accompagnés d'un modèle `*.example.*` versionné.
-- **Identité visuelle normalisée** : kits graphiques rangés dans `assets/brand/KIT.md`.
-- **Hygiène multi-outils** : `.gitattributes` harmonisé (`CRLF` garanti sur les scripts Windows) et mémoire technique locale `AGENTS.md` hors dépôt.
+- **Identité visuelle normalisée** : logos, bannières et icônes rangés dans `assets/brand/`, avec leur documentation de marque associée.
+- **Hygiène multi-outils** : `.gitattributes` adapté à chaque projet et mémoire technique locale `AGENTS.md` hors dépôt.
